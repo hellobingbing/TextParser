@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="MySource"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/je-analysis-1.5.3.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-core-2.9.2.jar"/>
+	<classpathentry kind="lib" path="lib/stanford-segmenter-3.4.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="lib/stanford-segmenter-3.4.1-sources.jar"/>
+	<classpathentry kind="lib" path="lib/stanford-segmenter-3.4.1.jar" sourcepath="lib/stanford-segmenter-3.4.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/TextParser/lib/stanford-segmenter-3.4.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
